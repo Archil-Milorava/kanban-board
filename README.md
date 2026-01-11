@@ -4,9 +4,7 @@ A modern, responsive Kanban interface for managing B2B hotel inquiries, built wi
 
 1. **Install and run the app:**
 
-Run `npm install --legacy-peer-deps && npm run dev` to install dependencies.
-
-Or simply `npm run app` and wait 1-2 minutes everything is installed and app opens in browser
+Run `npm install  && npm run dev` to install dependencies and run the app.
 
 
 # Tech Stack
