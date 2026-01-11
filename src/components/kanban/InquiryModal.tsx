@@ -47,7 +47,7 @@ export default function InquiryDetail() {
       await updateInquiryPhase(inquiry.id, newPhase);
       setIsUpdating(false);
       setShowSuccess(true);
-      setTimeout(() => setShowSuccess(false), 3000);
+      setTimeout(() => setShowSuccess(false), 1000);
     } catch (err) {
       setIsUpdating(false);
       setShowSuccess(false);
@@ -113,7 +113,7 @@ export default function InquiryDetail() {
             {/* Status  */}
             <div
               className={cn(
-                'relative overflow-hidden rounded-xl border p-4 transition-all duration-300 cursor-pointer hover:shadow-md',
+                'relative overflow-hidden rounded-xl border p-4 transition-all duration-300',
                 isUpdating
                   ? 'border-blue-200 bg-blue-50/50'
                   : showSuccess
@@ -139,7 +139,7 @@ export default function InquiryDetail() {
                 {isUpdating ? 'Updating...' : 'Status Phase'}
               </p>
 
-              <div className="flex items-center justify-between gap-2">
+              <div className="flex items-center justify-between gap-2 ">
                 <select
                   disabled={isUpdating}
                   value={inquiry.phase}
