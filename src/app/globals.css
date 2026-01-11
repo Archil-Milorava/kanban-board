@@ -1,8 +1,9 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #126fe0;
 }
 
 body {
@@ -15,4 +16,14 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  height: 8px; 
+  width: 5px; 
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 10px;
 }
