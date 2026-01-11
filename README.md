@@ -2,11 +2,11 @@
 
 A modern, responsive Kanban interface for managing B2B hotel inquiries, built with Next.js 14 and Zustand.
 
-1. **Install dependencies:**
+1. **Install and run the app:**
 
 Run `npm install --legacy-peer-deps && npm run dev` to install dependencies.
 
-or simply `npm run app` adn wait untill everything is installed and app runs itself
+Or simply `npm run app` and wait untill everything is installed and app opens in browser
 
 
 # Tech Stack
