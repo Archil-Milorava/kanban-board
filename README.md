@@ -1,4 +1,4 @@
-# smti Inquiry Kanban Board
+# Inquiry Kanban Board
 
 A modern, responsive Kanban interface for managing B2B hotel inquiries, built with Next.js 14 and Zustand.
 
